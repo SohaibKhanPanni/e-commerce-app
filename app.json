@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "e-commerce-app",
-    "slug": "e-commerce-app",
+    "slug": "ecommerce-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.sohaibpanni.ecommerceapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f771ede4-c846-4253-b1c6-5d8312f8f72d"
+      }
+    },
+    "owner": "sohaibpanni"
   }
 }
